@@ -12,6 +12,10 @@ public class MessageUtil {
         System.out.println(message);
         return message;
     }
+    public String printGreeting(){
+        System.out.println("SomeGreetings");
+        return "SomeGreetings";
+    }
 
     public void setMessage(String message){ this.message=message;}
     public String getMessage(){ return this.message;}
